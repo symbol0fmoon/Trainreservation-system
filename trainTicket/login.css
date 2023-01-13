@@ -1,7 +1,7 @@
 body {
 width: inherit;
 height:inherit;
-    background-image: url("background.png");
+    background-image: url("background1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -13,8 +13,9 @@ text-align: center;
     font-family: serif;
 }
 .nav-link{
-padding: 0.5rem 3.5rem !important;
+    padding: 0.5rem 3.5rem !important;
 }
+
 .nav-item a {
     text-decoration: none;
     color: #CACACA;
@@ -35,7 +36,7 @@ padding: 0.5rem 3.5rem !important;
 .wrapper{
   overflow: hidden;
   max-width: 29%;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   padding: 3.5% 1.2% 0% 1.2%;
   border-radius: 25px;
   border-width: 56;
@@ -74,11 +75,9 @@ input[type="time"]: placeholder-shown;
 .form-inner form .field{
   height: 13%;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.btn-layer{
-margin-top: 11%;}
 .form-inner form .field input{
   height: 100%;
   width: 100%;
@@ -114,12 +113,22 @@ form .field input:focus::placeholder{
 }
 
 form .btn{
-  height: 11%;
+  height: max-content;
   width: 100%;
   border-radius: 17px;
-  background-color: #6C448B;
+  background-color: rgba(108, 68, 139, 0.7);
   overflow: hidden;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: rgba(108, 68, 139, 0.7);
 }
+
+form .btn:hover {
+    background-color: rgba(108, 68, 139, 1.0);
+    border-color: rgba(108, 68, 139, 0.7);
+}
+
 form .btn .btn-layer{
   height: 100%;
   width: 100%;
@@ -130,23 +139,9 @@ form .btn .btn-layer{
   transition: all 0.4s ease;;
 }
 form .btn:hover .btn-layer{
-
   left: 0;
 }
 
-form .btn input[type="submit"]{
-  height: relative;
-  width: 100%;
-  z-index: 1;
-  position: relative;
-  padding-left:0;
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-   background-color: #6C448B;
-}
 .footer {
     position: fixed;
     right: 0;
@@ -158,18 +153,32 @@ form .btn input[type="submit"]{
     font-size: 0.7rem;
     width: 100%;
 }
+
 .text-center{
-margin-bottom:11%}
+    margin-bottom:11%
+}
 .bg-image-vertical {
-position: relative;
-overflow: hidden;
-background-repeat: no-repeat;
-background-position: right center;
-background-size: auto 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
 }
 
 @media (min-width: 1025px) {
 .h-custom-2 {
 height: 100%;
 }
+}
+
+div.col a, p a {
+    color: rgba(108, 68, 139, 1.0);
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgba(108, 68, 139, 1.0);
+}
+
+a:hover {
+    color: rgba(108, 68, 139, 1.0) !important;
 }

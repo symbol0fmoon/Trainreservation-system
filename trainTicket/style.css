@@ -189,3 +189,7 @@ form .btn{
   background-color: #6C448B;
   overflow: hidden;
 }*/
+
+a:hover {
+    color: rgba(108, 68, 139, 1.0) !important;
+}

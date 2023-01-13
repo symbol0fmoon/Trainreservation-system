@@ -65,3 +65,7 @@ body {
     margin-top:1.7%;
     text-align:center;
 }
+
+a:hover {
+    color: rgba(108, 68, 139, 1.0) !important;
+}

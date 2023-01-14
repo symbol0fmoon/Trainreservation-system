@@ -1,0 +1,122 @@
+body {
+    width: inherit;
+    height:inherit;
+    background-image: url("background1.png");
+    background-size: cover;
+    background-repeat: no-repeat;z
+    padding: 100px;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    color: white !important;
+    font-family: serif;
+}
+
+.nav-link {
+    padding: 0.5rem 3.5rem !important;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #CACACA;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background: #fa4299;
+  color: #fff;
+}
+
+.wrapper {
+      max-width: 100%;
+      height: max-content;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 2.5% 1.2% 1.3% 1.2%;
+      border-radius: 25px;
+      border-width: 56;
+      box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+      margin-top: 2%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+}
+
+.form-inner form .signup-link{
+  text-align: center;
+  margin-top: 0.3%;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 0.1rem;
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    width: 100%;
+}
+.text-center{
+margin-bottom:11%}
+.bg-image-vertical {
+position: relative;
+overflow: hidden;
+background-repeat: no-repeat;
+background-position: right center;
+background-size: auto 100%;
+}
+
+a:hover {
+    color: rgba(108, 68, 139, 1.0) !important;
+}
+
+.history-tabs > li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.history-tabs > li:first-of-type {
+    margin-left: 0px;
+}
+
+.history-tabs > li:nth-of-type(3) {
+    margin-right: 0px;
+}
+
+.history-tabs > li a {
+    color: #6C448B;
+    border: 2px solid #6C448B;
+    color: #6C448B;
+}
+
+.history-tabs > li a.active {
+    background-color: #6C448B !important;
+}
+
+.history-tabs > li a:hover {
+    background-color: #fff;
+}
+
+.history-tabs > li a.active:hover {
+    color: #fff !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: 15px !important;
+}
+
+#pills-tabContent {
+    padding-left: 32px;
+    padding-right: 32px;
+}

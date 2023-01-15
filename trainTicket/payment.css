@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: inherit;
+    height:inherit;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;}h3{text-align: center;
+    margin: 0;
+    color: white !important;
+    font-family: serif;
+}
+
+.nav-link {
+    padding: 0.5rem 3.5rem !important;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #CACACA;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+::selection {
+    background: #fa4299;
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 0.1rem;
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    width: 100%;
+}
+
+.text-center {
+    margin-bottom:11%
+}
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+.card {
+    border-radius: 30px !important;
+    margin: 5.7% 21.5%;
+}
+
+.card-title {
+    margin-top:1.7%;
+    text-align:center;
+}
+
+a:hover {
+    color: rgba(108, 68, 139, 1.0) !important;
+}
+
+.contact-info a {
+    display: block;
+    text-decoration: none;
+    color: black !important;
+}
+
+.payment-mode a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #6C448B;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px !important;
+}
+
+.payment-mode a:first-of-type {
+    margin-left: 0px;
+}
+
+.payment-mode a:focus{
+    background-color: #fa4299;
+    color: #fff !important;
+}
+
+.payment-mode a:hover {
+    color: #fff !important;
+}
+
+.payment-mode:nth-of-type(3) {
+    margin-right: 0px;
+}
+
+span {
+    margin: auto;
+    display: table;
+    width: 100%;
+    color: #6C448B;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+span:after,
+span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    color: #6C448B;
+}
+
+.ticketsbooked {
+    color: #FA4299;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}

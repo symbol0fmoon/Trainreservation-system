@@ -120,9 +120,12 @@ span:before{
 }
 
 .ticketsbooked {
-    color: #FA4299;
+    background-color: #4EA217;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 15px;
     text-transform: uppercase;
+    color: #fff;
+    border-bottom-left-radius: 10.7px;
+    border-bottom-right-radius: 10.7px;
 }

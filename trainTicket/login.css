@@ -80,6 +80,12 @@ input[type="time"]: placeholder-shown;
   margin-top: 10px;
 }
 
+.form-inner form .field1{
+  height: 13%;
+  width: 100%;
+  margin-top: 10px;
+}
+
 .form-inner form .field input{
   height: 100%;
   width: 100%;
@@ -90,6 +96,19 @@ input[type="time"]: placeholder-shown;
   border: 1px solid #6C448B;
   font-size: 17px;
   transition: all 0.3s ease;
+}
+
+.form-inner form .field1 input{
+  height: 30px;
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 17px;
+  border-width: 3px;
+  border: 1px solid #6C448B;
+  font-size: 17px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
 }
 
 .form-check{
